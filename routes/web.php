@@ -13,10 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/about-me', 'App\Http\Controllers\AboutMeController@index')->name('about.me');
+
+Route::get('/skills', 'App\Http\Controllers\SkillsController@index')->name('skills');
+
+Route::get('/hobbies', 'App\Http\Controllers\HobbiesController@index')->name('hobbies');
