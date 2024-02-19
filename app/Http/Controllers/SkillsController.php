@@ -17,6 +17,6 @@ class SkillsController extends Controller
             'CSS',
         ];
     
-        return view('skills.skills', ['skills' => $skills]);
+        return view('skills', ['skills' => $skills]);
     }
 }

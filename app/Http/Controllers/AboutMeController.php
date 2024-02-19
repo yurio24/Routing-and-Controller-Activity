@@ -9,12 +9,12 @@ class AboutMeController extends Controller
     //
     public function index()
     {
-        $data = [
+        $about = [
             'name' => 'Jhon Lester Sadang',
             'age' => 23,
             'location' => 'Malineng, Cuyapo, Nueva Ecija',
         ];
     
-        return view('about.about', $data);
+        return view('about', $about);
     }
 }

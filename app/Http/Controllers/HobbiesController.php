@@ -16,6 +16,6 @@ class HobbiesController extends Controller
             'Playing Basketball',
         ];
     
-        return view('hobbies.hobbies', ['hobbies' => $hobbies]);
+        return view('hobbies', ['hobbies' => $hobbies]);
     }
 }

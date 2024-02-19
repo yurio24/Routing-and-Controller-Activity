@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/about-me', 'App\Http\Controllers\AboutMeController@index')->name('about.me');
+Route::get('/about-me', 'App\Http\Controllers\AboutMeController@index')->name('about-me');
 
 Route::get('/skills', 'App\Http\Controllers\SkillsController@index')->name('skills');
 
